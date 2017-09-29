@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DependencyWithInterface.cs" />
+    <Compile Include="DependencyWithoutInterface.cs" />
+    <Compile Include="IDependency.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleImplWithDependency.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
