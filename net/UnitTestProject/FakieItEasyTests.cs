@@ -10,7 +10,8 @@ namespace UnitTestProject
     {
         [TestMethod]
         public void TestWithoutInterfaceDependency()
-        {
+        { 
+            //Type Mock Isolator
             var fake = A.Fake<DependencyWithoutInterface>();
            // A.CallTo(() => fake.Info(A<string>.Ignored)).Returns("Empty");
             var sut = new SampleImplWithDependency(fake);
